@@ -68,19 +68,19 @@ It allows:
 ### 🔹 Word Count
 
 ```bash
-./program --file file.txt --version v1 --query word --word hello
+./analyzer --file test_logs.txt --version v1 --buffer 256 --query word --word error
 ```
 
 ### 🔹 Difference Between Versions
 
 ```bash
-./program --file1 file1.txt --version1 v1 --file2 file2.txt --version2 v2 --query diff --word hello
+./analyzer --file1 test_logs.txt --version1 v1 --file2 verbose_logs.txt --version2 v2 --buffer 256 --query diff --word error
 ```
 
 ### 🔹 Top-K Words
 
 ```bash
-./program --file file.txt --version v1 --query top --top 5
+./analyzer --file test_logs.txt --version v1 --buffer 256 --query top --top 10
 ```
 
 ---
@@ -88,7 +88,7 @@ It allows:
 ## ⚡ Compilation
 
 ```bash
-g++ -std=c++17 main.cpp -o program
+g++ -O3 230865_Rohan.cpp -o indexer
 ```
 
 ---
@@ -115,12 +115,6 @@ g++ -std=c++17 main.cpp -o program
 
 ---
 
-## 📎 Report
-
-Detailed explanation available in:
-📄 `report.pdf`
-
----
 
 ## 👨‍💻 Author
 
