@@ -66,10 +66,10 @@ It allows:
 ## 📁 Dataset
 
 The repository includes the following dataset files:
-test_cases.txt
-test_logs.txt.gz
-verbose_logs.txt.gz
 
+- `test_cases.txt`
+- `test_logs.txt.gz`
+- `verbose_logs.txt.gz`
 
 ### 📌 Description
 
