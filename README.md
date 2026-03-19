@@ -63,6 +63,22 @@ It allows:
 
 ---
 
+## 📁 Dataset
+
+The repository includes the following dataset files:
+test_cases.txt
+test_logs.txt.gz
+verbose_logs.txt.gz
+
+
+### 📌 Description
+
+- `test_cases.txt` → Contains sample input and expected output  
+- `test_logs.txt.gz` → Dataset for normal testing  
+- `verbose_logs.txt.gz` → Larger dataset for extensive testing
+
+---
+
 ## 🧪 Example Usage
 
 ### 🔹 Word Count
